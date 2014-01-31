@@ -1,4 +1,4 @@
-CURRENT_FILE=Hello.hs
+CURRENT_FILE=Main.hs
 
 all:
 	echo "test.txt" | runghc $(CURRENT_FILE)

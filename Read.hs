@@ -1,6 +1,5 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-
 module Read where
 
 import System.IO
@@ -17,10 +16,4 @@ getPathContents :: String -> IO String
 getPathContents x = do 
 	readFile x
 
-
-
-
-
-
-	
 
